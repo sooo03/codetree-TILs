@@ -1,3 +1,3 @@
-a=26
-b=5
-print("% * %d = %d", a, b, a*b)
+num1 = 26
+num2 = 5
+print(f'{num1} * {num2} = {num1 * num2}')
