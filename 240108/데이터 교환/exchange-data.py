@@ -1,10 +1,8 @@
-a=5
-b=6
-c=7
-
-b=a
-c=b
+a,b,c = 5,6,7
+temp = a
 a=c
+c=b
+b=temp
 print(a)
 print(b)
 print(c)
