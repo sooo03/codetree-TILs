@@ -1,2 +1,4 @@
 n = input().split(":")
-print(f"{n[0]+1}:f{n[1]}")
+a = n[0] + 1
+b = n[1]
+print(f"{a}:{b}")
