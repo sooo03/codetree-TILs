@@ -1,4 +1,5 @@
 a = float(input())
 b = float(input())
+c=a+b
 
-print(round(a+b,2))
+print(format(c, ".2f"))
