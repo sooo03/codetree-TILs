@@ -1,3 +1,4 @@
-a, b = int(input().split())
-c = a+b
-print(f"{a} {b} {c}")
+arr = input().split()
+a = int(arr[0])
+b = int(arr[1])
+print(a,b,a+b)
