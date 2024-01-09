@@ -1,5 +1,6 @@
-a,b = input().split()
 c = input()
+a = float(input())
+b = float(input())
 
 print(c)
 print(round(a,2))
