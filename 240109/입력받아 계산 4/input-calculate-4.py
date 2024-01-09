@@ -1,2 +1,2 @@
 n = int(input())
-print(a*2)
+print(n*2)
