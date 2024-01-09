@@ -1,3 +1,4 @@
-ft = 30.48
-n = int(input())
+n = float(input())
+
+ft=30.48
 print(round(n*ft,1))
