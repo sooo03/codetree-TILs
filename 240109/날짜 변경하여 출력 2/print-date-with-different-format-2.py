@@ -1,2 +1,6 @@
 n = input().split("-")
-print(f"n[2].n[1].n[0]")
+
+y = n[2]
+m = n[0]
+d = n[1]
+print(f"{y}.{m}.{d}")
