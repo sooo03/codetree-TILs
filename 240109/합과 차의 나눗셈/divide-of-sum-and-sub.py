@@ -1,6 +1,6 @@
-arr = input().split()
-a = float(arr[0])
-b = float(arr[1])
+a, b = map(int, input().split())
 
-m = (a+b) / (a-b) 
-print(round(m,2))
+
+result = (a + b) / (a - b)
+rounded_result = round(result, 2)
+print(rounded_result)
