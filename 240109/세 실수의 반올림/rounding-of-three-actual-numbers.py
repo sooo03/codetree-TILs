@@ -1,5 +1,11 @@
-a,b,c = map(float, input().split())
-a = round(a,3)
-b = round(a,3)
-c = round(a,3)
-print(a,b,c)
+a = input()
+b = input()
+c = input()
+
+a = round(float(a),3)
+b = round(float(b),3)
+c = round(float(c),3)
+
+print(a)
+print(b)
+print(c)
