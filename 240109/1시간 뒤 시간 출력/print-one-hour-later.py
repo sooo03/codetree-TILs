@@ -1,4 +1,6 @@
-n = input().split(":")
-a = n[0] + 1
-b = n[1]
-print(f"{a}:{b}")
+inp = input()
+arr = inp.split(":")
+h = int(arr[0])
+m = int(arr[1])
+
+print(f"{h + 1}:{m}")
