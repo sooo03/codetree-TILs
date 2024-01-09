@@ -1,6 +1,3 @@
-a, b = map(int, input().split())
+a,b=map(float,input().split())
 
-
-result = (a + b) / (a - b)
-rounded_result = round(result, 2)
-print(rounded_result)
+print(round((a+b)/(a-b),2))
