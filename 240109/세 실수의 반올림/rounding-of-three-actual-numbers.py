@@ -1,0 +1,5 @@
+a,b,c = map(float, input().split())
+a = round(a,3)
+b = round(a,3)
+c = round(a,3)
+print(a,b,c)
