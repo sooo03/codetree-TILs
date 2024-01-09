@@ -1,11 +1,5 @@
-a = input()
-b = input()
-c = input()
+a = float(input())
+b = float(input())
+c = float(input())
 
-a = round(float(a),3)
-b = round(float(b),3)
-c = round(float(c),3)
-
-print(a)
-print(b)
-print(c)
+print(f"{a:.3f}\n{b:.3f}\n{c:.3f}")
