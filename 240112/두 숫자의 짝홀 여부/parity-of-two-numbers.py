@@ -1,11 +1,11 @@
 arr = input().split()
-a = arr[0]
-b = arr[1]
+a = int(arr[0])
+b = int(arr[1])
 if a%2==0:
     print("even")
 else:
     print("odd")
-elif b%2==0:
+if b%2==0:
     print("even")
 else:
     print("odd")
