@@ -1,4 +1,4 @@
-mid, fin = int(input())
+mid, fin = map(int, input().split())
 if mid>=90:
     if fin>=95:
         print("100000")
