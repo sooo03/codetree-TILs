@@ -1,5 +1,5 @@
 arr = list(map(int, input().split()))
-sum = 0
+sum_val = 0
 for i in arr:
-    sum += arr[i]
-print(sum)
+    sum_val += arr[i]
+print(sum_val)
