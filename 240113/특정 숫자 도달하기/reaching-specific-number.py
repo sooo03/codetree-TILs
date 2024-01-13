@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
 
-new_arr = 0
+sum_val = 0
 cnt = 0
 
 for i in arr:
