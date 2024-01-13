@@ -1,11 +1,11 @@
 arr = list(map(int, input().split()))
-result = []
-sum_val, avg, cnt = 0, 0, 0
-for i in range(len(arr)):
-    cnt += 1
-    if arr[i] == 0:
-        avg = sum_val / (cnt - 1)
+sum_val, cnt = 0, 0
+
+for i in arr:
+    if i == 0:
         break
-    else:
-        sum_val += arr[i]
+    sum_val += i
+    cnt += 1
+avg = sum_val / cnt
+
 print(f"{sum_val} {avg:.1f}")
