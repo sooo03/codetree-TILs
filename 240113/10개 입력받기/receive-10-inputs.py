@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
 result = []
-sum_val, cnt = 0, 0
+sum_val, avg, cnt = 0, 0, 0
 for i in range(len(arr)):
     cnt += 1
     if arr[i] == 0:
