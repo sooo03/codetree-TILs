@@ -19,5 +19,5 @@ for i in range(len(element)):
 print(cnt)
 
 #3 a b
-for i in range(a3-1, b3):
-    print(element[i], end=' ')
+for num in element[a3-1:b3]:
+    print(num, end=' ')
