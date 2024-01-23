@@ -8,7 +8,7 @@ third_ques, a3, b3 = map(int, input().split())
 print(element[a1-1])
 
 #2 a
-cnt = 0
+cnt = -1
 for i in range(len(element)):
     if a2 != element[i]: #숫자 a가 없는 경우
         cnt = 0
