@@ -1,5 +1,6 @@
 n = int(input())
-dp = [False for i in range(n+1)]
+MAX_MUM = 45
+dp = [0 for _ in range(MAX_MUM+1)]
 dp[1], dp[2] = 1, 1
 
 for i in range(3, n+1):
