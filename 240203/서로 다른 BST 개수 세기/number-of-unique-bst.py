@@ -1,5 +1,5 @@
 n = int(input())
-dp = [0] * 20
+dp = [0 for _ in range(20)]
 
 def count_bst(n):
     num_of_bst = 0
