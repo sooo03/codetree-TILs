@@ -1,10 +1,17 @@
 a, b = map(int, input().split())
 
-def is_369(n, m):
-    num = []
-    for i in range(n, m+1):
-        if '3' in str(i) or '6' in str(i) or '9' in str(i):
-            num.append(i)
-    return len(num)
+def have_369(n):
+    while n > 0:
+        if n % 10 == 3 or n % 10 == 6 or n % 10 == 9:
+            return True
+        n = n // 10
+    return False
 
-print(is_369(a, b))
+def is_369(n):
+    return have_369(n) or (n % 3 == 0)
+
+count = 0
+for i in range(a, b+1):
+    if is_369(i):
+        count += 1
+print(count)
