@@ -1,13 +1,13 @@
 y = int(input())
 
-def leap_year(y)
-    if y % 4 != 0
+def leap_year(y):
+    if y % 4 != 0:
         return False
-    if y % 100 != 0
-        return Ture
-    if y % 400 == 0
+    if y % 100 != 0:
         return True
-    return false
+    if y % 400 == 0:
+        return True
+    return False
 
 if leap_year(y):
     print("true")
