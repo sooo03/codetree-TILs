@@ -9,7 +9,7 @@ def leap_year(y)
         return True
     return false
 
-if leap_year(year):
+if leap_year(y):
     print("true")
 else:
     print("false")
